@@ -70,13 +70,16 @@ const Timeline = () => {
               <div className="inline-block bg-gray-200 p-6 shadow-lg rounded-lg transition-all ease-in-out hover:bg-green-300 hover:scale-105">
                 <div className="text-sm text-gray-500">{date}</div>
 
-                {logo && (
-                  <div className="flex my-2 inset-y-0 right-0 flex-shrink-0 items-center h-auto w-9">
-                    <img
-                      src={logo}
-                      alt={`${title} logo`}
-                      className="w-10 h-10 object-contain"
-                    />
+                {entry.logo?.length > 0 && (
+                  <div className="flex my-2 inset-y-0 right-0 flex-shrink-0 items-center h-auto w-auto">
+                    {entry.logo.map((lg, idx) => (
+                      <img
+                        key={idx}
+                        src={lg}
+                        alt={`${title} logo`}
+                        className="w-auto h-8 object-contain px-1.5"
+                      />
+                    ))}
                   </div>
                 )}
 

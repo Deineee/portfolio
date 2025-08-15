@@ -69,7 +69,7 @@ export default function Contact() {
       className="scroll-mt-24 py-16 px-4 sm:px-6 lg:px-20 text-black"
     >
       <div className="container mx-auto max-w-7xl">
-        <h2 className="text-4xl font-bold text-center mb-12">Get In Touch</h2>
+        <h2 className="text-4xl font-bold text-center mb-12"> Get in Touch</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div className="space-y-8">
             <div className="flex items-start space-x-4">
@@ -77,7 +77,7 @@ export default function Contact() {
               <div>
                 <h3 className="font-semibold text-xl">Location</h3>
                 <p className="text-gray-400">
-                  Tupi, South Cotabato, Philippines
+                  Koronadal, South Cotabato, Philippines
                 </p>
               </div>
             </div>
@@ -85,14 +85,14 @@ export default function Contact() {
               <Phone className="w-6 h-6 text-green-300 mt-1" />
               <div>
                 <h3 className="font-semibold text-xl">Phone</h3>
-                <p className="text-gray-400">+63 963 1512 988</p>
+                <p className="text-gray-400">+63 955 2051 555</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <Mail className="w-6 h-6 text-green-300 mt-1" />
               <div>
                 <h3 className="font-semibold text-xl">Email</h3>
-                <p className="text-gray-400">benzajtil@gmail.com</p>
+                <p className="text-gray-400">crisdeine@gmail.com</p>
               </div>
             </div>
           </div>

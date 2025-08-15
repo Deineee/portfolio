@@ -8,6 +8,7 @@ import {
   Projects,
   Contact,
   Bottom,
+  Skills,
 } from "./components";
 import LoadingScreen from "./components/loadingScreen";
 import ScrollEffect from "./hooks/ScrollEffect";
@@ -36,6 +37,13 @@ const App = () => {
           <ScrollEffect direction="left">
             <section id="timeline" className="scroll-mt-24">
               <Timeline />
+            </section>
+          </ScrollEffect>
+
+          {/* Skills Section */}
+          <ScrollEffect direction="right">
+            <section id="skills" className="scroll-mt-24">
+              <Skills />
             </section>
           </ScrollEffect>
           {}

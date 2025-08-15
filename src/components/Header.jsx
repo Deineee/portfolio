@@ -9,7 +9,7 @@ const Header = () => {
     <nav className="sticky top-0 z-50 bg-white backdrop-blur-md shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {}
-        <div className="text-xl font-bold">Ben.Dev</div>
+        <div className="text-xl font-bold">Deine.Dev</div>
 
         {}
         <button

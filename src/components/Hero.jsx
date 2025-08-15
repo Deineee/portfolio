@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Lottie from "lottie-react";
 import textBubble from "../assets/pixel-speech-bubble.gif";
-import backgroundGif from "../assets/background.gif";
+import backgroundGif from "../assets/966314.jpg";
 import catAnimation from "../assets/8-bit.json";
 import { person, tagline, typedTitle, info } from "../constants";
 
@@ -79,10 +79,10 @@ const Hero = () => {
         />
       </div>
       {}
-      <div className="absolute inset-0 bg-black/70 z-10"></div>
+      <div className="absolute inset-0 bg-black/40 z-10"></div>
       {}
       <div className="absolute top-0 left-0 z-10 m-4">
-        <h1 className="text-white text-sm">Ben.Dev</h1>
+        <h1 className="text-white text-sm">Deine.Dev</h1>
       </div>
       <div className="absolute inset-0 z-20 flex flex-col justify-center items-center h-full pr-10 gap-y-6">
         <header className="w-full text-center text-white space-y-4 cursor-default">

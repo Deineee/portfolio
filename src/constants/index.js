@@ -1,27 +1,27 @@
 const tagline = {
-  tag: "#full-stack #softwaredev #graphic-designer #computer-science-graduate",
+  tag: "#full-stack #softwaredev #backend-dev #computer-science-graduate",
 };
 
 const scope = {};
 const person = {
   name: {
-    fname: "BEN FLORENCE AJ",
-    lname: "TIL",
+    fname: "CRIS DEINE",
+    lname: "POMPERADA",
     get fullname() {
       return `${this.fname} ${this.lname}`;
     },
   },
   photo: {
-    img: "../src/assets/bg1.jpg",
+    img: "../src/assets/bg_deine.jpg",
     border: "../src/assets/border.gif",
   },
   bio: {
-    birth: "October 9, 2002",
+    birth: "June 19, 2003",
     citizenship: "Filipino",
     location: {
       country: "Philippines",
       province: "South Cotabato",
-      city: "Tupi",
+      city: "Koronadal",
       get loc() {
         return `${this.city} , ${this.province} , ${this.country}`;
       },
@@ -34,35 +34,35 @@ const person = {
       label: "Github",
       title: "Github Profile",
       icon: "fab fa-github",
-      url: "https://github.com/benajtil",
+      url: "https://github.com/Deineee",
     },
     facebook: {
       name: "facebook",
       label: "Facebook",
       title: "facebook Profile",
       icon: "fab fa-facebook",
-      url: "https://www.facebook.com/1.AjEspiritu09/",
+      url: "https://www.facebook.com/crisdeine.pomperada/",
     },
     linkedin: {
       name: "linkedin",
       label: "LinkedIn",
       title: "LinkedIn Profile",
       icon: "fab fa-linkedin",
-      url: "https://www.linkedin.com/in/ben-florence-aj-til-7217a729a/",
+      url: "linkedin.com/in/cris-deine-pomperada-37496727a",
     },
   },
 };
 
 const info = {
   titleDesc:
-    "A passionate and creative Full-Stack Developer with a strong foundation in software engineering, design, and innovation. Dedicated to building responsive, user-focused web solutions with clean code and thoughtful design.",
+    "I’m Cris Deine Pomperada — a Computer Science graduate on a quest to build impactful digital solutions, from backend systems to AI and mobile apps, one pixel at a time.",
 };
 
 const typedTitle = {
   title: [
     { text: "FULL-STACK DEVELOPER", color: "text-amber-400" },
     { text: "SOFTWARE DEVELOPER", color: "text-blue-400" },
-    { text: "GRAPHIC DESIGNER", color: "text-pink-400" },
+    { text: "BACKEND DEVELOPER", color: "text-pink-400" },
     { text: "CS GRADUATE", color: "text-green-400" },
   ],
 };
@@ -77,14 +77,13 @@ const navLink = [
     name: "Timeline",
   },
   {
-    id: "projects",
-    name: "Projects",
-  },
-  {
     id: "skills",
     name: "Skills",
   },
-
+  {
+    id: "projects",
+    name: "Projects",
+  },
   {
     id: "contact",
     name: "Contact",
@@ -92,52 +91,65 @@ const navLink = [
 ];
 const about = {
   bio: {
-    aboutme: `Hey, I’m Ben Florence A.J. Til, a Computer Science graduate from Notre Dame of Marbel University (NDMU) and a self-taught tech enthusiast. Back in high school, I got curious about how computers and bots worked. With zero coding knowledge, I started by copying existing open-source projects, tweaking them, breaking things, fixing them — and somehow making them work. I ended up building my own music bots, RSS APIs, and even Discord bots with custom commands. I also managed a small private server and became a database manager, all while learning things the hard way.
+    aboutme: `I’m Cris Deine Pomperada, whose path into technology began in an unexpected way back in high school. I wasn’t sure what course to take in college, but my love for gaming and technology sparked a curiosity about how machines worked. That curiosity led me to experiment, explore, and teach myself programming — turning a simple hobby into a passion for creating solutions that make a real impact.
 
-    That curiosity never stopped. I’ve built PCs, fixed electronics, repaired phones, wired WiFi-connected vending machines — all without formal training in electronics. I didn’t know anything about amperes or circuits, I just figured things out by doing.
-\n I may not always feel like I fully “fit” into a role right away, but one thing I’m sure of: I’ll learn it, adapt, and make it work.
+Since then, I’ve worked on backend systems, AI-powered projects, and mobile applications. I’ve built grading and tabulation systems, business management tools, and even developed a full-stack dating app during my internship — taking it from concept to deployment.
 
-`,
+I’m driven by continuous learning, problem-solving, and collaboration, always aiming to create functional, efficient, and user-friendly products. My mission is to keep growing as a developer and use technology to make everyday tasks easier, smarter, and more impactful. `
+,
     objective:
-      "Versatile technologist in (ENTRY LEVEL)full-stack JavaScript (React, Node.js) and PHP development, with a keen eye for UI/UX and graphic design. Experienced building responsive web and hybrid mobile apps that sync offline data. Hands-on IT technician and PC builder who also prototypes microcontroller-based systems. Ideal for roles bridging software engineering, front-end design, and hardware integration.",
+      "A Computer Science graduate with hands-on experience in backend development, AI projects, and mobile applications. Skilled in building systems ranging from grading and business management tools to full-stack apps and ERP platforms, with a focus on creating efficient, scalable, and user-friendly solutions.",
     scopes: [
+      { text: "Backend Developer" },
       { text: "Full Stack Developer" },
-      { text: "(Entry) Mobile App Developer" },
-      { text: "Frontend/UI Developer" },
-      { text: "Graphic Designer" },
-      { text: "2D assets Designer" },
-      { text: "IT Techinician" },
-      { text: "PC Builder" },
-      { text: "Microcontroller-Based Vending System Integrator" },
+      { text: "Mobile App Developer" },
+      { text: "AI/ML Developer" },
+      { text: "API Developer (REST & GraphQL)" },
+      { text: "Database Designer" },
+      { text: "Web App Developer" },
     ],
   },
 };
-import animateLogo from "../assets/utilities/animate.png";
 import cLogo from "../assets/utilities/c.png";
 import cppLogo from "../assets/utilities/c++.png";
 import dartLogo from "../assets/utilities/dart.png";
 import javaLogo from "../assets/utilities/java.png";
 import jsLogo from "../assets/utilities/js.png";
-import photoshopLogo from "../assets/utilities/photoshop.png";
-import premierLogo from "../assets/utilities/premier.png";
+import phpLogo from "../assets/utilities/PHP-logo.svg.png";
+import htmlLogo from "../assets/utilities/html5.png";
+import css3Logo from "../assets/utilities/css3.jpg";
+import mysqlLogo from "../assets/utilities/mysq-logo.png";
+import flutterLogo from "../assets/utilities/Flutter_logo.svg.png";
+import firebaseLogo from "../assets/utilities/firebase.png";
+import nodejsLogo from "../assets/utilities/nodejs.png";
+import expressLogo from "../assets/utilities/expressjs.png";
+import mongodbLogo from "../assets/utilities/mongodb.svg";
 import pythonLogo from "../assets/utilities/python.png";
-import illustratorLogo from "../assets/utilities/Illustrator.png";
 import ndmuLogo from "../assets/utilities/NDMU.avif";
 import lakbayImg from "../assets/projects/lakbaymarista.png";
 import customerImg from "../assets/projects/customersegmentation.png";
 import no404 from "../assets/projects/404.png";
 
-const logos = [
-  animateLogo,
+// Programming Languages
+const programmingLogos = [
   cLogo,
   cppLogo,
   dartLogo,
   javaLogo,
   jsLogo,
-  photoshopLogo,
-  premierLogo,
   pythonLogo,
-  illustratorLogo,
+  phpLogo,
+  htmlLogo,
+  css3Logo,
+  mysqlLogo,
+  nodejsLogo,
+];
+
+// Utilities
+const utilityLogos = [
+  flutterLogo,
+  firebaseLogo,
+  expressLogo,
 ];
 
 const timeline = {
@@ -156,23 +168,22 @@ const timeline = {
   ],
   experience: [
     {
-      title: "Graphic Designer",
-      start: "2016",
-      end: "Present",
+      title: "Full-Stack Internship at Eulap",
+      start: "June 2024",
+      end: "August 2024",
       description:
-        "Design on-brand visual assets logos, banners, web graphics—and 2D game sprites using Photoshop & Illustrator.",
-      logo: [photoshopLogo, illustratorLogo],
-
+        "Developed real-time scoring and results platforms for the 2024 SOXITECH Startup Hackathon and the 2024 T’nalak Festival Street Dancing Competition using PHP, HTML, CSS, JavaScript, MySQL, Flutter, and Firebase.",
+      logo: [phpLogo, htmlLogo, jsLogo, css3Logo, mysqlLogo, flutterLogo, firebaseLogo],
       certificate: "",
       modal: "",
     },
     {
-      title: "2D Assets Designer",
-      start: "2016",
-      end: "2020",
+      title: "Backend Developer (Freelancing)",
+      start: "Februay 205",
+      end: "July 2025",
       description:
-        "Created UI icons, marketing banners, and 2D sprites for web projects and Roblox games.",
-      logo: [animateLogo],
+        "Developed the backend architecture of a scalable, modular ERP system at Metrix Bolts Center using Node.js, Express.js, and MongoDB, collaborating with frontend React developers for seamless API integration.",
+      logo: [nodejsLogo, expressLogo, mongodbLogo],
       certificate: "",
       modal: "",
     },
@@ -259,7 +270,8 @@ export {
   info,
   navLink,
   about,
-  logos,
+  programmingLogos,
+  utilityLogos,
   timeline,
   projects,
 };
