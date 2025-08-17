@@ -132,7 +132,7 @@ export default function About() {
               onClick={handleClickOpen}
             >
               <a
-                href="/cv-resume/Ben-Resume.pdf"
+                href="/portfolio/Resume-Pomperada.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-green-500 rounded-4xl flex items-center justify-center h-10 w-40"

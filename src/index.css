@@ -291,13 +291,13 @@ body {
 .animate-scroll-up {
   display: flex;
   flex-direction: column;
-  animation: scroll-up 10s linear infinite;
+  animation: scroll-up 15s linear infinite;
 }
 
 .animate-scroll-down {
   display: flex;
   flex-direction: column;
-  animation: scroll-down 10s linear infinite;
+  animation: scroll-down 15s linear infinite;
 }
 
 

@@ -48,7 +48,7 @@ const person = {
       label: "LinkedIn",
       title: "LinkedIn Profile",
       icon: "fab fa-linkedin",
-      url: "linkedin.com/in/cris-deine-pomperada-37496727a",
+      url: "https://www.linkedin.com/in/cris-deine-pomperada-37496727a",
     },
   },
 };
@@ -110,8 +110,9 @@ I’m driven by continuous learning, problem-solving, and collaboration, always 
     ],
   },
 };
-import cLogo from "../assets/utilities/c.png";
+
 import cppLogo from "../assets/utilities/c++.png";
+import rubyLogo from "../assets/utilities/ruby.png";
 import dartLogo from "../assets/utilities/dart.png";
 import javaLogo from "../assets/utilities/java.png";
 import jsLogo from "../assets/utilities/js.png";
@@ -125,32 +126,53 @@ import nodejsLogo from "../assets/utilities/nodejs.png";
 import expressLogo from "../assets/utilities/expressjs.png";
 import mongodbLogo from "../assets/utilities/mongodb.svg";
 import pythonLogo from "../assets/utilities/python.png";
+import vuejsLogo from "../assets/utilities/vuejs.png";
+import railsLogo from "../assets/utilities/rails.png";
+import graphqlLogo from "../assets/utilities/graphql.png"
+import cloudLogo from "../assets/utilities/cloudinary.png"
+import laravelLogo from "../assets/utilities/Laravel.png";
+import reactLogo from "../assets/utilities/react.png";
+import bootstrapLogo from "../assets/utilities/bootstrap.png";
+import postgresqlLogo from "../assets/utilities/postgresql.png";
 import ndmuLogo from "../assets/utilities/NDMU.avif";
-import lakbayImg from "../assets/projects/lakbaymarista.png";
-import customerImg from "../assets/projects/customersegmentation.png";
+import diabetesImg from "../assets/projects/diabetes_pred.png";
+import strayImg from "../assets/projects/stray.png";
+import mbcImg from "../assets/projects/mbc.png";
 import no404 from "../assets/projects/404.png";
 
 // Programming Languages
 const programmingLogos = [
-  cLogo,
   cppLogo,
   dartLogo,
   javaLogo,
   jsLogo,
   pythonLogo,
   phpLogo,
+  rubyLogo,
   htmlLogo,
   css3Logo,
-  mysqlLogo,
-  nodejsLogo,
 ];
 
-// Utilities
+// Technologies / Frameworks
 const utilityLogos = [
   flutterLogo,
-  firebaseLogo,
-  expressLogo,
+  laravelLogo,
+  reactLogo,
+  nodejsLogo,
+  bootstrapLogo,
+  railsLogo,
+  vuejsLogo,
+  graphqlLogo,
 ];
+
+// Databases
+const databaseLogos = [
+  mongodbLogo,
+  mysqlLogo,
+  firebaseLogo,
+  postgresqlLogo,
+];
+
 
 const timeline = {
   education: [
@@ -188,80 +210,100 @@ const timeline = {
       modal: "",
     },
     {
-      title: "IT Technician",
-      start: "2020",
-      end: "Present",
+      title: "Full-Stack Internship at ChatGenie",
+      start: "July 2025",
+      end: "August 2025",
       description:
-        "Assembled custom PCs, managed networks, troubleshooted hardware/software issues, and provided end-user support.",
-      logo: "",
-      certificate: "",
-      modal: "",
-    },
-    {
-      title: "PC Builder",
-      start: "2020",
-      end: "Present",
-      description:
-        "Built performance desktop rigs from the ground up, selecting optimal components and ensuring system stability.",
-      logo: "",
-      certificate: "",
-      modal: "",
-    },
-    {
-      title: "Full-Stack Engineer Internship",
-      start: "June 2024",
-      end: "August 2024",
-      description:
-        "Contributed to full-stack features, wrote unit tests, and collaborated with senior engineers on code reviews.",
-      logo: [jsLogo, pythonLogo, dartLogo],
+        "Built a full-stack dating application with Vue.js and Ruby on Rails (GraphQL), featuring real-time chat, user profiles, and Cloudinary-powered photo management.",
+      logo: [vuejsLogo, railsLogo, graphqlLogo, cloudLogo],
       certificate: "",
       modal: "",
     },
   ],
 };
 
+// projects
 const projects = [
   {
-    title: "Lakbay Marista",
+    title: "AI Model for Diabetes Prediction",
     description:
-      "Lakbay Marista is your one‑stop digital travel guide to the most captivating sights around the Mindanao region. From the serene shores of Lake Holon and the thundering cascades of Seven Falls, to hidden cultural monuments and family‑friendly resorts, Lakbay Marista curates each destination with beautiful photography, authentic local insights, and real traveler ratings. Use our intuitive filters—Popular, Featured, New, or All—to quickly discover the perfect spot for your next adventure, then dive into detailed location info and reviews so you can plan your trip with confidence. Whether you’re a weekend wanderer or an off‑the‑beaten‑path explorer, Lakbay Marista brings the best of South Cotabato province right to your fingertips.",
+      "Developed and optimized a diabetes prediction AI model using Logistic Regression with Elastic Net, benchmarking performance with key metrics and visualizing results in Python (Jupyter, Matplotlib, Seaborn).",
     url: {
-      github: "https://github.com/benajtil/lakbaymarista-tourist",
-      live: "lakbaymarista.online",
+      github: "",
+      live: "",
     },
-    image: lakbayImg,
-    languages: ["PHP", "HTML", "CSS", "JAVASCRIPT", "MySQL"],
-
-    live: true,
+    image: diabetesImg,
+    languages: ["Python", "Jupyter Notebook", "HTML", "CSS"],
+    live: false,
   },
   {
-    title: "Customer Segmentation",
+    title: "Grading System",
     description:
-      "Developed as part of our Thesis at Notre Dame of Marbel University, this PHP‑powered web application delivers a comprehensive, responsive admin dashboard that lets you drill into every table and record—customers, orders, products, users—and filter, sort, search, or export on demand; it also displays real‑time site metrics such as total customers, sales, and active sessions, while providing full user administration to create, edit, or revoke access for any number of admin or staff accounts. Beyond the LAMP‑stack front end, the repository includes a Python module built on pandas and scikit‑learn that preprocesses raw transaction data and applies the DBSCAN algorithm—using both RFM and LRFMP feature sets—to uncover natural customer clusters, which can then be visualized or fed back into the PHP dashboard for targeted marketing campaigns. Although the system has been discontinued following our successful thesis defense, it remains a complete full‑stack illustration of how to integrate a classic PHP/MySQL dashboard with a modern data‑science backend for real‑world customer‑segmentation workflows.",
+      "Built a college grading system using Laravel (backend), Filament (admin panel), and Bootstrap (frontend) to manage student scores and automate grade computation per semester based on configurable criteria.",
     url: {
       github:
-        "https://github.com/benajtil/Customer-Segmentation-in-Online-Retail-using-DBSCANS.git",
+        "https://github.com/Deineee/grading",
       live: "lakbaymarista.online",
     },
-    image: customerImg,
-    languages: ["PHP", "HTML", "CSS", "JAVASCRIPT", "PYTHON", "MySQL"],
+    image: no404,
+    languages: ["PHP", "Laravel", "Filament", "MySQL", "Bootstrap"],
 
     live: false,
   },
   {
-    title: "Tabulation System",
+    title: "Pet Adoption App",
     description:
-      "The Tnalak Festival Tabulation System is a PHP‑based web application designed to manage and score entries in both the Float Competition and Civic Competition. It supports local data storage via SQLite for offline use and central synchronization with MySQL for permanent record‑keeping. Administrators can log in to manage contestants, judges, and scoring criteria, then generate printed score sheets and final ranking reports.",
+      "Developed a mobile pet adoption app with Flutter and Firebase, allowing users to easily browse, search, and apply to adopt pets.",
     url: {
-      github: "https://github.com/benajtil/tnalak-admin.git",
-      live: "lakbaymarista.online",
+      github: "",
+      live: "",
+    },
+    image: strayImg,
+    languages: ["Flutter", "Dart", "Firebase"],
+
+    live: false,
+  },
+  {
+    title: "MBC's ERP System",
+    description:
+      "Designing and building the backend of a scalable and modular ERP system using Node.js, Express.js, and MongoDB, all within an Agile development workflow.",
+    url: {
+      github: "",
+      live: "",
+    },
+    image: mbcImg,
+    languages: ["Node.js", "Express.js", "MongoDB"],
+
+    live: false,
+  },
+  {
+    title: "Club Payment System",
+    description:
+      "Contributed as a backend developer to a school digital payment system using Laravel, implementing authentication, payments, and financial reporting for improved transparency.",
+    url: {
+      github: "https://github.com/DizzyCheems/Club-Payment-System",
+      live: "",
     },
     image: no404,
-    languages: ["PHP", "HTML", "CSS", "JAVASCRIPT", "SQLite", "MySQL"],
+    languages: ["Laravel", "PHP", "MySQL"],
+
+    live: false,
+  },
+  {
+    title: "LLM Prompt Optimization Toolkit",
+    description:
+      "Developed a Python-based prompt optimization toolkit with Pandas and Ollama’s LLaMA 3 API to test, compare, and log prompts for improved summarization performance.",
+    url: {
+      github: "https://github.com/Deineee/prompt-optimization-toolkit",
+      live: "",
+    },
+    image: no404,
+    languages: ["Python", "Llama 3 API", "HTML", "JavaScript", "CSS"],
 
     live: false,
   },
 ];
+
 export {
   person,
   scope,
@@ -274,4 +316,5 @@ export {
   utilityLogos,
   timeline,
   projects,
+  databaseLogos,
 };
