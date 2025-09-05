@@ -6,11 +6,11 @@ A sleek, pixel‑art–inspired personal portfolio built with React and Vite, sh
 
 ## 🚀 Live Demo
 
-👉 [https://benajtil.github.io/cv-resume/](https://benajtil.github.io/cv-resume/)
+👉 [https://deineee.github.io/cv-resume/](https://deineee.github.io/cv-resume/)
 
 ## 📖 About
 
-I’m **Ben Florence A.J. Til**, a fresh Computer Science graduate from NDMU, passionate about web development. This repo hosts my personal portfolio site, where you can:
+I’m **Cris Deine L. Pomperada**, a fresh Computer Science graduate from NDMU, passionate about web development. This repo hosts my personal portfolio site, where you can:
 
 - Learn about my background, skills, and experience
 - Browse through my featured projects
@@ -39,7 +39,7 @@ I’m **Ben Florence A.J. Til**, a fresh Computer Science graduate from NDMU, pa
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/benajtil/cv-resume.git
+   git clone https://github.com/deineee/cv-resume.git
    cd cv-resume
    ```
 
@@ -90,7 +90,7 @@ npm run deploy
 …and your site will go live at:
 
 ```
-https://benajtil.github.io/cv-resume/
+https://deineee.github.io/cv-resume/
 ```
 
 ## 📂 Project Structure
@@ -98,7 +98,7 @@ https://benajtil.github.io/cv-resume/
 ```
 cv-resume/
 ├─ public/                # Static assets (fonts, PDF résumé, favicon)
-│  └─ Ben-Resume.pdf      # Résumé PDF  
+│  └─ Resume-Pomperada.pdf      # Résumé PDF  
 ├─ src/
 │  ├─ assets/             # Images, JSON animations, styles  
 │  ├─ components/         # Reusable React components  
@@ -113,9 +113,9 @@ cv-resume/
 
 **Ben Florence A.J. Til**
 
-- 📧 [benzajtil@gmail.com](mailto\:benzajtil@gmail.com)
-- 🌐 [https://benajtil.github.io/cv-resume](https://benajtil.github.io/cv-resume)
-- 👔 [LinkedIn](https://www.linkedin.com/in/ben-florence-aj-til-7217a729a/)
+- 📧 [crisdeine@gmail.com](mailto\:crisdeine@gmail.com)
+- 🌐 [https://deineeee.github.io/cv-resume](https://deineee.github.io/cv-resume)
+- 👔 [LinkedIn](https://www.linkedin.com/in/deine/)
 
 ## 📄 License
 
