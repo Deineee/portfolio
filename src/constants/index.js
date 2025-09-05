@@ -209,7 +209,7 @@ const timeline = {
       certificate: "",
       modal: "",
     },
-    /* {
+    {
       title: "Full-Stack Internship at ChatGenie",
       start: "July 2025",
       end: "August 2025",
@@ -218,7 +218,7 @@ const timeline = {
       logo: [vuejsLogo, railsLogo, graphqlLogo, cloudLogo],
       certificate: "",
       modal: "",
-    }, */
+    },
   ],
 };
 
