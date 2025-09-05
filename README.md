@@ -111,7 +111,7 @@ cv-resume/
 
 ## 🙋‍♂️ Author
 
-**Ben Florence A.J. Til**
+**Cris Deine L. Pomperada**
 
 - 📧 [benzajtil@gmail.com](mailto\:benzajtil@gmail.com)
 - 🌐 [https://benajtil.github.io/cv-resume](https://benajtil.github.io/cv-resume)
