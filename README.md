@@ -111,7 +111,7 @@ cv-resume/
 
 ## 🙋‍♂️ Author
 
-**Ben Florence A.J. Til**
+**Cris Deine L. Pomperada**
 
 - 📧 [crisdeine@gmail.com](mailto\:crisdeine@gmail.com)
 - 🌐 [https://deineeee.github.io/cv-resume](https://deineee.github.io/cv-resume)
