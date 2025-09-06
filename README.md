@@ -98,7 +98,7 @@ https://deineee.github.io/cv-resume/
 ```
 cv-resume/
 ├─ public/                # Static assets (fonts, PDF résumé, favicon)
-│  └─ Resume-Pomperada.pdf      # Résumé PDF  
+│  └─ Pomperada-Resume.pdf      # Résumé PDF  
 ├─ src/
 │  ├─ assets/             # Images, JSON animations, styles  
 │  ├─ components/         # Reusable React components  
